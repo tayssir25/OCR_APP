@@ -160,7 +160,7 @@ const getFactureData = async (Result) => {
         TVA,
         net_A_Payer,
       };
-      console.log("relevant data" + relevantData);
+      console.log(relevantData);
       return relevantData;
     }
   } catch (err) {

@@ -157,7 +157,7 @@ const RBParser = async (req, res) => {
   try{
     const result =  await parseFile(req, res, filePath);
     const DATA = await getRBData (result.ParsedResults[0].TextOverlay);
-    console.log(DATA);
+  //  console.log(DATA);
     res.json(DATA)
     //res.json(result.ParsedResults[0].TextOverlay);
    // console.log(result.SearchablePDFURL);
